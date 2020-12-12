@@ -1,0 +1,31 @@
+body {
+  background-color: #ffffff;
+}
+
+.list {
+  list-style: none;
+}
+
+.logo {
+  color: #2196f3;
+}
+
+/* site-nav */
+.site-nav .link {
+  color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+/* hero */
+.hero-tittle {
+  color: #ffffff;
+}
+
+/* section */
+.section-tittle {
+  color: #212121;
+}
