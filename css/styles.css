@@ -17,10 +17,18 @@ p {
   list-style: none;
 }
 
+/* logo */
 .logo {
   color: var(--akcent-color);
 }
 
+.logo-header {
+  color: var(--tittle-text-color);
+}
+
+.logo-footer {
+  color: #ffffff;
+}
 /* site-nav */
 .site-nav .link {
   color: var(--tittle-text-color);
@@ -28,6 +36,10 @@ p {
 
 .site-nav .link:hover,
 .site-nav .link:focus {
+  color: var(--akcent-color);
+}
+
+.site-nav .link.current {
   color: var(--akcent-color);
 }
 
@@ -66,8 +78,27 @@ p {
   background-color: var(--akcent-color);
 }
 
+.click {
+  background: #f5f4fa;
+  color: var(--tittle-text-color);
+}
+
+.click:hover,
+.click:focus {
+  color: #ffffff;
+  background-color: var(--akcent-color);
+}
 /* footer */
+.footer .logo,
+.footer .tittle,
+.address-list .link {
+  background: #2f303a;
+}
+
 .footer .tittle {
   color: #ffffff;
-  background: #2f303a;
+}
+
+.address-list .link {
+  color: rgba(255, 255, 255, 0.6);
 }
