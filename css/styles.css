@@ -13,6 +13,8 @@ body {
 
 p {
   color: var(--primary-text-color);
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 .list {
@@ -32,7 +34,7 @@ p {
 }
 
 .logo-footer {
-  color: var(--primary-white-color)
+  color: var(--primary-white-color);
 }
 /* site-nav */
 .site-nav .link {
@@ -55,8 +57,9 @@ p {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.4;
+  line-height: 1.14;
 }
+
 .site-contact .link:hover,
 .site-contact .link:focus {
   color: var(--akcent-color);
@@ -65,7 +68,7 @@ p {
 /* hero */
 .hero-tittle {
   background: #2f303a;
-  color: #ffffff
+  color: var(--primary-white-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -75,22 +78,51 @@ p {
 /* futures */
 .feature-list .tittle {
   color: var(--tittle-text-color);
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
 
 /* section */
 .section-tittle {
   color: var(--tittle-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 
 /* team */
 .team-list .tittle {
+  background: #f5f4fa;
   color: var(--tittle-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.team-list .text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  background: var(--primary-white-color);
+}
+
+.image {
+  background: #f5f4fa;
 }
 
 /* batton */
 .button {
-  color: var(--primary-white-color)
+  color: var(--primary-white-color);
   background-color: var(--akcent-color);
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 
 .click {
@@ -100,9 +132,27 @@ p {
 
 .click:hover,
 .click:focus {
-  color: #ffffff
+  color: var(--primary-white-color);
   background-color: var(--akcent-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
 }
+
+/* hero portfolio */
+.section-tittle .caption {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.section-tittle .rubric {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2;
+}
+
 /* footer */
 .footer .logo,
 .footer .tittle,
@@ -111,9 +161,15 @@ p {
 }
 
 .footer .tittle {
-  color: var(--primary-white-color)
+  color: var(--primary-white-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 .address-list .link {
   color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
