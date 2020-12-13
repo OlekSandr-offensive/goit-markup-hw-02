@@ -41,6 +41,7 @@ p {
 .logo-footer {
   color: var(--primary-white-color);
 }
+
 /* site-nav */
 .site-nav .link {
   color: var(--tittle-text-color);
@@ -168,6 +169,9 @@ p {
 
 .section-tittle {
   list-style: none;
+}
+
+.picture {
   text-decoration: none;
 }
 
