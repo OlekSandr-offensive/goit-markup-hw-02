@@ -83,6 +83,10 @@ p {
 }
 
 /* futures */
+.feature-list {
+  list-style: none;
+}
+
 .feature-list .tittle {
   color: var(--tittle-text-color);
   font-size: 14px;
@@ -100,6 +104,10 @@ p {
 }
 
 /* team */
+.team-list {
+  list-style: none;
+}
+
 .team-list .tittle {
   background: var(--background-white-color);
   color: var(--tittle-text-color);
@@ -132,6 +140,10 @@ p {
   text-align: center;
 }
 
+.buttons {
+  list-style: none;
+}
+
 .click {
   background: var(--background-white-color);
   color: var(--tittle-text-color);
@@ -154,6 +166,11 @@ p {
   line-height: 2;
 }
 
+.section-tittle {
+  list-style: none;
+  text-decoration: none;
+}
+
 .section-tittle .rubric {
   font-weight: 400;
   font-size: 16px;
@@ -173,6 +190,10 @@ p {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+}
+
+.address-list {
+  list-style: none;
 }
 
 .address-list .link {
