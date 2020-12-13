@@ -3,6 +3,9 @@
   --tittle-text-color: #212121;
   --akcent-color: #2196f3;
   --primary-white-color: #ffffff;
+  --background-white-color: #f5f4fa;
+  --background-dark-color: #2f303a;
+  --rgba-transparent-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -13,6 +16,7 @@ body {
 
 p {
   color: var(--primary-text-color);
+  font-weight: 400l;
   font-size: 14px;
   line-height: 1.71;
 }
@@ -67,7 +71,7 @@ p {
 
 /* hero */
 .hero-tittle {
-  background: #2f303a;
+  background: var(--background-dark-color);
   color: var(--primary-white-color);
   font-weight: 900;
   font-size: 44px;
@@ -94,7 +98,7 @@ p {
 
 /* team */
 .team-list .tittle {
-  background: #f5f4fa;
+  background: var(--background-white-color);
   color: var(--tittle-text-color);
   font-weight: 500;
   font-size: 16px;
@@ -111,7 +115,7 @@ p {
 }
 
 .image {
-  background: #f5f4fa;
+  background: var(--background-white-color);
 }
 
 /* batton */
@@ -126,7 +130,7 @@ p {
 }
 
 .click {
-  background: #f5f4fa;
+  background: var(--background-white-color);
   color: var(--tittle-text-color);
 }
 
@@ -157,7 +161,7 @@ p {
 .footer .logo,
 .footer .tittle,
 .address-list .link {
-  background: #2f303a;
+  background: var(--background-dark-color);
 }
 
 .footer .tittle {
@@ -168,7 +172,7 @@ p {
 }
 
 .address-list .link {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--rgba-transparent-color);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
