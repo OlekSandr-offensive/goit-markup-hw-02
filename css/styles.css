@@ -28,6 +28,7 @@ p {
 /* logo */
 .logo {
   color: var(--akcent-color);
+  text-decoration: none;
   font-family: Raleway;
   font-size: 26px;
   line-height: 1.19;
@@ -43,6 +44,7 @@ p {
 /* site-nav */
 .site-nav .link {
   color: var(--tittle-text-color);
+  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -59,6 +61,7 @@ p {
 
 .site-contact .link {
   color: var(--primary-text-color);
+  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -166,6 +169,7 @@ p {
 
 .footer .tittle {
   color: var(--primary-white-color);
+  font-style: inherit;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -173,6 +177,7 @@ p {
 
 .address-list .link {
   color: var(--rgba-transparent-color);
+  text-decoration: none;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
