@@ -19,6 +19,7 @@ p {
   font-weight: 400l;
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .list {
@@ -32,6 +33,7 @@ p {
   font-family: Raleway;
   font-size: 26px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 .logo-header {
@@ -49,6 +51,7 @@ p {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -66,6 +69,7 @@ p {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .site-contact .link:hover,
@@ -81,6 +85,7 @@ p {
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
+  letter-spacing: 0.06em;
 }
 
 /* futures */
@@ -93,6 +98,7 @@ p {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+  letter-spacing: 0.03em;
 }
 
 /* section */
@@ -102,6 +108,7 @@ p {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* team */
@@ -116,6 +123,7 @@ p {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .team-list .text {
@@ -124,6 +132,7 @@ p {
   line-height: 1.19;
   text-align: center;
   background: var(--primary-white-color);
+  letter-spacing: 0.03em;
 }
 
 .image {
@@ -139,6 +148,7 @@ p {
   display: flex;
   align-items: center;
   text-align: center;
+  letter-spacing: 0.06em;
 }
 
 .buttons {
@@ -158,16 +168,19 @@ p {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* hero portfolio */
-.section-tittle .caption {
+.main-tittle .caption {
+  color: var(--tittle-text-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  letter-spacing: 0.06em;
 }
 
-.section-tittle {
+.main-tittle {
   list-style: none;
 }
 
@@ -175,10 +188,11 @@ p {
   text-decoration: none;
 }
 
-.section-tittle .rubric {
+.main-tittle .rubric {
   font-weight: 400;
   font-size: 16px;
   line-height: 2;
+  letter-spacing: 0.03em;
 }
 
 /* footer */
@@ -194,6 +208,7 @@ p {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .address-list {
@@ -206,4 +221,5 @@ p {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
 }
